@@ -7,8 +7,8 @@ let thunkMiddleware = require('redux-thunk').default;
 let Logger = require('redux-logger');
 
 // Import reducers
-const Root = require('./Root.jsx');
-const Tile = require('./Tile.jsx');
+const Root = require('./Root.js');
+const Tile = require('./Tile.js');
 
 // Create logger
 const loggerMiddleware = Logger();
